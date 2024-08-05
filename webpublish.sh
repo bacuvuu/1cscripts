@@ -21,6 +21,8 @@ fi
 	rm $tmpfl
 if [ $? -eq 0 ]; then
 	echo Database has been published
+else
+	echo Something wrong...
 fi
 
 while true; do
